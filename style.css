@@ -1,77 +1,39 @@
-h1, h2 {
-  text-align: center;
+@charset "utf-8";
+
+body {
+  background-image:url(soccer.jpg);
+  /* margin:0; */
 }
 
-.member1 {
-  width:400px;
-  height:240px;
-  border-radius:16px;
-  background-image: url(IMG_0819.PNG);
-  background-size:cover contain;
-
-}
-
-.member2 {
-  width:400px;
-  height:240px;
-  border-radius:16px;
-  background-image: url(IMG_0820.PNG);
-  background-size:cover contain;
-  background-position: center;
-}
-
-.member3 {
-  width:400px;
-  height:240px;
-  border-radius:16px;
-  background-image: url(IMG_0821.jpeg);
-  background-size:cover;
-  /* background-position: center; */
-}
-
-
-ul {
-  list-style:none;
-}
-
-li {
+h1, h2, p {
   color: white;
-  text-align: left;
-  font-size:20px;
-  line-height: 1.6;
+  font-weight: bold;
 }
 
-.container1 {
-  /* background: blue; */
-  display: flex;
-  justify-content: space-between;
-  margin-top: 32px;
+li, div {
+  font-weight:bold;
+  
 }
 
-.container5 {
-  display:flex;
+a {
+  color:skyblue;
 }
-.name1 {
-  font-weight: bold;
-  font-size: 24px;
-  flex: 0.7;
-  justify-content: space-between;
-  /* background:pink; */
-  /* text-align: center; */
+span {
+  color:tomato;
 }
-.name2 {
+
+footer {
+  text-align: center;
   font-weight: bold;
-  font-size: 24px;
-  flex:1;
-  justify-content: space-between;
-  /* background:skyblue; */
-  /* text-align: center; */
 }
-.name3 {
-  font-weight: bold;
-  font-size: 24px;
-  flex:0.7;
-  justify-content: space-between;
-  /* background:yellow; */
-  /* text-align: center; */
+
+button {
+  all: unset;
+  height: 32px;
+  width:160px;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 32px;
+  cursor: pointer;
 }
