@@ -10,30 +10,59 @@ h1, h2, p {
   font-weight: bold;
 }
 
-li, div {
+div {
+  font-weight: bold;
+}
+
+li {
   font-weight:bold;
-  
+  /* background:white; */
+  list-style: none;
+  color:white;
+  margin-left: 32px;
+}
+
+span {
+  color: pink;
 }
 
 a {
   color:skyblue;
 }
-span {
-  color:tomato;
-}
+
 
 footer {
   text-align: center;
   font-weight: bold;
 }
 
-button {
-  all: unset;
-  height: 32px;
-  width:160px;
-  border: 1px solid black;
-  border-radius: 8px;
-  text-align: center;
-  line-height: 32px;
-  cursor: pointer;
+.break {
+  color: black;
+}
+
+.reference {
+  color: rgba(0, 30, 255, 0.428);
+}
+
+@media (min-width: 375px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 375px) {
+  h2 {
+    font-size:14px;
+  }
+}
+
+@media (min-width: 375px) {
+  h3 {
+    font-size:12px;
+  }
+}
+@media (min-width: 375px) {
+  p {
+    font-size:12px;
+  }
 }
