@@ -55,7 +55,7 @@ footer {
 
 @media (min-width: 375px) {
   h2 {
-    font-size:14px;
+    font-size:13px;
   }
 }
 
@@ -73,6 +73,6 @@ footer {
 
 @media (min-width: 375px) {
   h4 {
-    font-size:11px;
+    font-size:10px;
   }
 }
