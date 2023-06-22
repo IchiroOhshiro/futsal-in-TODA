@@ -64,8 +64,15 @@ footer {
     font-size:12px;
   }
 }
+
 @media (min-width: 375px) {
   p {
     font-size:12px;
+  }
+}
+
+@media (min-width: 375px) {
+  h4 {
+    font-size:11px;
   }
 }
