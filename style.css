@@ -36,9 +36,12 @@ footer {
   font-weight: bold;
 }
 
-.break {
-  color: black;
-}
+/* .break {
+  /* background:white; */
+  /* color:black;
+  width:200px;
+  text-align: center;
+} */ */
 
 .reference {
   color: rgba(0, 30, 255, 0.428);
@@ -52,7 +55,7 @@ footer {
 
 @media (min-width: 375px) {
   h2 {
-    font-size:13px;
+    font-size:14px;
   }
 }
 
