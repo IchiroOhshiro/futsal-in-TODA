@@ -10,14 +10,14 @@ h1, h2, p {
   font-weight: bold;
 }
 
+.gameschedule {
+  color:black;
+}
 
 .reference {
   color: #faebd7;
 }
 
-span {
-  color: pink;
-}
 
 a {
   color:skyblue;
